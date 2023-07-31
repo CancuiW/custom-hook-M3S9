@@ -13,6 +13,8 @@ const Navbar = (props) => {
         <div
           onClick={toggleMode}
           className={props.darkMode ? 'toggle toggled' : 'toggle'}
+          //'toggle toggled'--->black   
+          //'toggle'-->white
         />
       </div>
     </nav>
